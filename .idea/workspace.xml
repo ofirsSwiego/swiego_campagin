@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67fb4671-38b9-473d-90ef-34fda4bc1089" name="Default" comment="" />
+    <list default="true" id="67fb4671-38b9-473d-90ef-34fda4bc1089" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/index.php" afterPath="$PROJECT_DIR$/server/index.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,7 +16,7 @@
       <file leaf-file-name="partial-home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/partials/partial-home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
+            <state relative-caret-position="-82">
               <caret line="50" column="29" lean-forward="false" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
               <folding />
             </state>
@@ -41,13 +43,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+            <state relative-caret-position="466">
+              <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
               <folding>
-                <marker date="1518427606359" expanded="true" signature="501:714" ph="INSERT INTO lead_users... " />
+                <marker date="1518431093080" expanded="true" signature="501:714" ph="INSERT INTO lead_users... " />
               </folding>
             </state>
           </provider>
@@ -63,7 +65,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="58">
@@ -134,9 +136,9 @@
         <option value="$PROJECT_DIR$/partials/partial-home.html" />
         <option value="$PROJECT_DIR$/server/Connected.php" />
         <option value="$PROJECT_DIR$/controllers/app.js" />
-        <option value="$PROJECT_DIR$/server/index.php" />
         <option value="$PROJECT_DIR$/scss/_global.scss" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/server/index.php" />
       </list>
     </option>
   </component>
@@ -255,12 +257,12 @@
       <workItem from="1517910243707" duration="36716000" />
       <workItem from="1518190406623" duration="1496000" />
       <workItem from="1518342182803" duration="29606000" />
-      <workItem from="1518424886569" duration="4824000" />
+      <workItem from="1518424886569" duration="4978000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72642000" />
+    <option name="totallyTimeSpent" value="72796000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -343,7 +345,7 @@
         <state relative-caret-position="486">
           <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
-            <marker date="1518427606359" expanded="true" signature="501:714" ph="INSERT INTO lead_users... " />
+            <marker date="1518431093080" expanded="true" signature="501:714" ph="INSERT INTO lead_users... " />
           </folding>
         </state>
       </provider>
@@ -369,7 +371,7 @@
         <state relative-caret-position="396">
           <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
           <folding>
-            <marker date="1518427606359" expanded="true" signature="501:714" ph="INSERT INTO lead_users... " />
+            <marker date="1518431093080" expanded="true" signature="501:714" ph="INSERT INTO lead_users... " />
           </folding>
         </state>
       </provider>
@@ -526,16 +528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding>
-            <marker date="1518427606359" expanded="true" signature="501:714" ph="INSERT INTO lead_users... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/Connected.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -552,19 +544,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/partials/partial-home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="50" column="29" lean-forward="false" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
           <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/partial-home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-82">
+          <caret line="50" column="29" lean-forward="false" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding>
+            <marker date="1518431093080" expanded="true" signature="501:714" ph="INSERT INTO lead_users... " />
+          </folding>
         </state>
       </provider>
     </entry>

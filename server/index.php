@@ -53,12 +53,12 @@ if($_POST['action'] == 'sendData') {
             $mail->Username = 'office@swiego.com';                 // SMTP username
             $mail->Password = 'swiego55555';                           // SMTP password
             $mail->Charset = 'UTF-8';
-            //$mail->AddAddress('office@swiego.com', 'Swiego One');
+            $mail->AddAddress('office@swiego.com', 'Swiego One');
             $mail->AddAddress('ofir@swiego.com', 'Ofir shurdeker');
-//            $mail->AddAddress('evgeni@swiego.com', 'evgeni fomenko');
-//            $mail->AddAddress('gal@swiego.com', 'Gal zabari');
+            $mail->AddAddress('evgeni@swiego.com', 'evgeni fomenko');
+            $mail->AddAddress('gal@swiego.com', 'Gal zabari');
             $mail->setFrom('office@swiego.com', 'Swiego');
-            //$mail->addAddress($to);     // Add a recipient
+            $mail->addAddress($to);     // Add a recipient
 
             $mail->isHTML(true);                                  // Set email format to HTML
 
