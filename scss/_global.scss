@@ -697,6 +697,14 @@ ul.smalltext {
   text-align: center;
 }
 
+@media only screen and (max-height: 785px) {
+  #logocontainer{
+    display:none;
+  }
+}
+
+
+
 @media only screen and (max-width: 766px) {
   .mobile-toggle {
     display: block;
