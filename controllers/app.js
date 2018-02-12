@@ -330,6 +330,12 @@ angular.module('App', ['angular-loading-bar','ui.router'])
 
         $scope.scroll_to = function (type) {
             if(type == 1){
+                ga('send', {
+                    hitType: 'event',
+                    eventCategory: 'scroll to outsourcing',
+                    eventAction: 'outsourcing',
+                    eventLabel: 'click outsourcing'
+                });
                 $("html, body").animate({ scrollTop: $('#about').offset().top }, 1000);
             }
             if(type == 2){

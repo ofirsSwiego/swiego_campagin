@@ -58,7 +58,7 @@ if($_POST['action'] == 'sendData') {
             $mail->AddAddress('evgeni@swiego.com', 'evgeni fomenko');
             $mail->AddAddress('gal@swiego.com', 'Gal zabari');
             $mail->setFrom('office@swiego.com', 'Swiego');
-            $mail->addAddress($to);     // Add a recipient
+            //$mail->addAddress($to);     // Add a recipient
 
             $mail->isHTML(true);                                  // Set email format to HTML
 
