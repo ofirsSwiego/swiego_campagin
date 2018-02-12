@@ -322,10 +322,7 @@ angular.module('App', ['angular-loading-bar','ui.router'])
                     }
                 }
             });
-
-
         })();
-
 
 
         $scope.scroll_to = function (type) {
@@ -333,25 +330,35 @@ angular.module('App', ['angular-loading-bar','ui.router'])
                 if ("ga" in window) {
                     tracker = ga.getAll()[0];
                     if (tracker)
-                        tracker.send("event", "Test", "Test GA");
+                        tracker.send("event", "Swiego campaign", "scroll to dedicated team");
                 }
-
-                // hitType: 'event',
-                //     eventCategory: 'scroll to outsourcing',
-                //     eventAction: 'outsourcing',
-                //     eventLabel: 'click outsourcing'
                 $("html, body").animate({ scrollTop: $('#about').offset().top }, 1000);
             }
             if(type == 2){
+                if ("ga" in window) {
+                    tracker = ga.getAll()[0];
+                    if (tracker)
+                        tracker.send("event", "Swiego campaign", "scroll to What is a dedicated team");
+                }
                 $("html, body").animate({ scrollTop: $('#features').offset().top }, 1000);
             }
             if(type == 3){
+                if ("ga" in window) {
+                    tracker = ga.getAll()[0];
+                    if (tracker)
+                        tracker.send("event", "Swiego campaign", "scroll to Our expertise");
+                }
                 $("html, body").animate({ scrollTop: $('#contact').offset().top }, 1000);
             }
             if(type == 4){
+                if ("ga" in window) {
+                    tracker = ga.getAll()[0];
+                    if (tracker)
+                        tracker.send("event", "Swiego campaign", "scroll to header");
+                }
                 $("html, body").animate({ scrollTop: $('header').offset().top }, 1000);
             }
-        }
+        };
 
         $scope.user = {};
         $scope.onSubmit = function(){
@@ -362,7 +369,6 @@ angular.module('App', ['angular-loading-bar','ui.router'])
                     $scope.user.site = 4;
                     var url = window.location.href+'/server/index.php';
 
-
                     $.ajax({
                         type: 'POST',
                         url: url,
@@ -372,20 +378,16 @@ angular.module('App', ['angular-loading-bar','ui.router'])
 
                         },
                         success: function (data) {
-                            //alert(data.result);
-                            console.log(data.result)
-                            //if(data.result.status == 103){
-                                ga('send', {
-                                    hitType: 'event',
-                                    eventCategory: 'Contact Us',
-                                    eventAction: 'Send lead',
-                                    eventLabel: 'Dedicated team Campaign'
-                                });
+                            if(data.result.status == 103){
+                            if ("ga" in window) {
+                                tracker = ga.getAll()[0];
+                                if (tracker)
+                                    tracker.send("event", "Swiego campaign Contact Us",'name: ' + data.result.name + '; email: ' + data.result.email + '; phone: ' + data.result.phone);
+                            }
                                 $('.loader__result').toggleClass('loader__result--is-complete');
-                            //}else {
-                             //   alert(22222);
-                            //    console.log('error server');
-                           // }
+                            }else {
+                                tracker.send("event", "Swiego campaign Contact Us",'error from server');
+                            }
                         }
                     });
                 }else {
@@ -408,7 +410,6 @@ angular.module('App', ['angular-loading-bar','ui.router'])
 
             // Define the threeBarToggle function by extending the jQuery object
             threeBarToggle: function(options){
-
                 // Set the default options
                 var defaults = {
                     color: 'black',
