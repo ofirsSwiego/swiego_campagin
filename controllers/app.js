@@ -330,7 +330,11 @@ angular.module('App', ['angular-loading-bar','ui.router'])
 
         $scope.scroll_to = function (type) {
             if(type == 1){
-                ga('send', 'event', 'outsourcing' ,'scroll');
+                if ("ga" in window) {
+                    tracker = ga.getAll()[0];
+                    if (tracker)
+                        tracker.send("event", "Test", "Test GA");
+                }
 
                 // hitType: 'event',
                 //     eventCategory: 'scroll to outsourcing',
