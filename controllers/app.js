@@ -404,7 +404,25 @@ angular.module('App', ['angular-loading-bar','ui.router'])
             }
         }
 
-
+        $scope.target_button = function (type) {
+            var tracker = ga.getAll()[0];
+            if (tracker){
+                switch(type) {
+                    case 1:
+                            tracker.send("event", "Social Buttons",'website Swiego');
+                        break;
+                    case 2:
+                            tracker.send("event", "Social Buttons",'facebook');
+                        break;
+                    case 3:
+                            tracker.send("event", "Social Buttons",'google+');
+                        break;
+                    case 4:
+                            tracker.send("event", "Social Buttons",'linkedin');
+                        break;
+                }
+            }
+        };
 
         $.fn.extend({
 

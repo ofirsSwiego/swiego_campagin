@@ -48,7 +48,7 @@
         <img id="sanky" src="//inf3cti0n95.github.io/img/sanky.svg">
     </div>
     <div class="container">
-        <img src="img/swiego_logo_w.svg" href="https://swiego.com/" alt="logo" class="logo">
+        <img src="img/swiego_logo_w.svg" ng-href="https://swiego.com/" target="_blank" alt="logo" class="logo">
         <div class="main_nav">
         <div class="menu_mobile">
             <!--<div class="mobile-toggle"> <span></span> <span></span> <span></span> </div>-->
@@ -223,10 +223,10 @@
         <p>© 2018 - Swiego LTD</p>
     </div>
     <div class="social">
-        <a href="https://swiego.com/" target="_blank" class="support">Website</a>
-        <a href="https://www.facebook.com/swiego/" target="_blank" class="face">f</a>
-        <a href="https://plus.google.com/107362614321693668026" class="google_plus" target="_blank">+g</a>
-        <a href="https://www.linkedin.com/company/swiego/" target="_blank" class="linked">in</a>
+        <a href="https://swiego.com/" target="_blank" class="support" ng-click="target_button(1)">Website</a>
+        <a href="https://www.facebook.com/swiego/" target="_blank" class="face" ng-click="target_button(2)">f</a>
+        <a href="https://plus.google.com/107362614321693668026" class="google_plus" ng-click="target_button(3)" target="_blank">+g</a>
+        <a href="https://www.linkedin.com/company/swiego/" target="_blank" ng-click="target_button(4)" class="linked">in</a>
     </div>
 </footer>
 
