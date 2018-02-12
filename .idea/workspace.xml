@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="67fb4671-38b9-473d-90ef-34fda4bc1089" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_global.scss" afterPath="$PROJECT_DIR$/scss/_global.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_global.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_global.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scss/_global.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-14">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="395">
+              <caret line="561" column="1" lean-forward="false" selection-start-line="561" selection-start-column="1" selection-end-line="561" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -65,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="30" column="2" lean-forward="false" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
+            <state relative-caret-position="58">
+              <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -88,7 +89,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>#logocontainer</find>
       <find>.footer-social-overlap</find>
       <find>span.footer-social-overlap.footer-social-connect</find>
       <find>footer p</find>
@@ -117,6 +117,7 @@
       <find>mobile</find>
       <find>error server</find>
       <find>loader__result</find>
+      <find>header h2</find>
       <find>swiego_c</find>
     </findStrings>
   </component>
@@ -133,12 +134,12 @@
         <option value="$PROJECT_DIR$/css/typicons.min.css" />
         <option value="$PROJECT_DIR$/vendor/angular/angular-ui-router.min.js" />
         <option value="$PROJECT_DIR$/vendor/angular/angular.min.js" />
-        <option value="$PROJECT_DIR$/scss/_global.scss" />
         <option value="$PROJECT_DIR$/partials/partial-home.html" />
         <option value="$PROJECT_DIR$/server/Connected.php" />
         <option value="$PROJECT_DIR$/controllers/app.js" />
         <option value="$PROJECT_DIR$/server/index.php" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/scss/_global.scss" />
       </list>
     </option>
   </component>
@@ -257,12 +258,12 @@
       <workItem from="1517910243707" duration="36716000" />
       <workItem from="1518190406623" duration="1496000" />
       <workItem from="1518342182803" duration="29606000" />
-      <workItem from="1518424886569" duration="3887000" />
+      <workItem from="1518424886569" duration="4748000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71705000" />
+    <option name="totallyTimeSpent" value="72566000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -536,14 +537,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_global.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
@@ -564,8 +557,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="30" column="2" lean-forward="false" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
+        <state relative-caret-position="58">
+          <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_global.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="561" column="1" lean-forward="false" selection-start-line="561" selection-start-column="1" selection-end-line="561" selection-end-column="1" />
           <folding />
         </state>
       </provider>

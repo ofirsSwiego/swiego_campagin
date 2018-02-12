@@ -554,7 +554,22 @@ header h1 {
 }
 header h2 {
   color: #FFFFFF;
+  margin-bottom: 10px;
 }
+
+.smoothscroll:hover {
+  text-decoration: underline !important;
+}
+
+nav {
+  display: block;
+  color: white;
+}
+
+.h2, h2 {
+  font-size: 1.4rem;
+}
+
 header p {
   color: #FFFFFF;
 }
