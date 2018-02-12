@@ -509,7 +509,7 @@ angular.module('App', ['angular-loading-bar','ui.router'])
         setTimeout(function(){
             $('.loading_page').hide().addClass('animated fadeOut');
             $('.page').show().addClass('animated fadeIn');
-        },2100);
+        },1500);
 
     })
 
