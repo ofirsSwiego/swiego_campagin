@@ -226,7 +226,7 @@ $example_code .= "\n}";
     <link type="text/css" rel="stylesheet" href="styles/shThemeDefault.css">
     <style>
         body {
-            font-family: Arial, Helvetica, sans-serif;
+
             font-size: 1em;
             padding: 1em;
         }
