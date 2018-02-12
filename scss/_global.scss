@@ -1,6 +1,12 @@
-@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800';
+//@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800';
+@import url(https://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
+@import url(https://fonts.googleapis.com/earlyaccess/opensanshebrewcondensed.css);
 /* Global Styles
 ********************************************************************* */
+
+*{
+  font-family: 'Open Sans Hebrew Condensed', serif !important;
+}
 body {
   margin: 0px;
   padding: 0px;
@@ -535,7 +541,7 @@ h1 {
 
 header {
   background: #0469A7;
-  background-image: url(https://jeffbredenkamp.neocities.org/bg.jpg);
+  background-image: url(../img/bg.jpg);
   height: auto;
   background-position: center;
   background-repeat: no-repeat;
