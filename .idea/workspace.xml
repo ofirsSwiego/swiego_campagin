@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67fb4671-38b9-473d-90ef-34fda4bc1089" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,10 +68,10 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="913">
-              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="4" selection-end-line="58" selection-end-column="13" />
+            <state relative-caret-position="177">
+              <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
               <folding>
-                <marker date="1518522892876" expanded="true" signature="2706:3175" ph="..." />
+                <marker date="1518524336451" expanded="true" signature="2702:3108" ph="..." />
               </folding>
             </state>
           </provider>
@@ -169,9 +168,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -285,15 +284,15 @@
       <workItem from="1518342182803" duration="29606000" />
       <workItem from="1518424886569" duration="8247000" />
       <workItem from="1518454967818" duration="2423000" />
-      <workItem from="1518520439329" duration="1331000" />
+      <workItem from="1518520439329" duration="2728000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91558000" />
+    <option name="totallyTimeSpent" value="92955000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -401,7 +400,7 @@
         <state relative-caret-position="522">
           <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
           <folding>
-            <marker date="1518522892876" expanded="true" signature="2706:3175" ph="..." />
+            <marker date="1518524336451" expanded="true" signature="2702:3108" ph="..." />
           </folding>
         </state>
       </provider>
@@ -459,7 +458,7 @@
         <state relative-caret-position="918">
           <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding>
-            <marker date="1518522892876" expanded="true" signature="2706:3175" ph="..." />
+            <marker date="1518524336451" expanded="true" signature="2702:3108" ph="..." />
           </folding>
         </state>
       </provider>
@@ -722,10 +721,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="913">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="4" selection-end-line="58" selection-end-column="13" />
+        <state relative-caret-position="177">
+          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
           <folding>
-            <marker date="1518522892876" expanded="true" signature="2706:3175" ph="..." />
+            <marker date="1518524336451" expanded="true" signature="2702:3108" ph="..." />
           </folding>
         </state>
       </provider>
